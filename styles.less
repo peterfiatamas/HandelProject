@@ -1,0 +1,210 @@
+@cimbetu: red;
+@color: #fff;  
+@bgcolor: #d9e8f5;
+@betutipus: Times new romana;
+html body{
+    background-color: #d9e8f5;
+}
+
+.signo{
+
+    display: block;
+    width: 150px;
+}
+#cim{
+    color: @color;
+    font-family: @betutipus;
+}
+.head{
+    .tel{
+        text-align: right;
+        color: @color;
+        padding-top: 5px;
+    }  
+    background-image: -o-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -moz-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -webkit-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -ms-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: linear-gradient(to bottom, #2966B1 0%, #2966B1 100%);
+}
+
+.menu-container{   
+    background-color: #EDF1F3; 
+}
+.menu{
+    #fooldal{
+        padding-left: 0;
+    }
+    a{
+        padding-left: 2px;
+        padding-right: 2px;
+        display: inline;
+        text-align: left;
+        font-size: 18px;
+        text-decoration: none; 
+        &:hover{
+            color: gold;
+        }        
+    }
+}
+.cimHandel{
+    font-family:  @betutipus;
+}
+.intro{
+    text-align: justify;
+}
+.keptarolo{
+    .kep{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .bal{
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+    .jobb{
+        width: 50%;
+        .alapitok{
+            font-family: @betutipus;    
+        } 
+    }
+
+}
+
+.intro{
+    padding-top: 10px;
+}
+.introKep{
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+}
+.reka{
+    font-family:  @betutipus;  
+}
+.introSzoveg{
+    padding: 10px;
+    font-family:  @betutipus;
+    text-align: justify;
+}
+
+#uzenet{
+    margin-right: 15%;
+    color: #a9446d;
+    text-decoration: none;
+    background: #f2dede;
+    padding: 4px;
+    border-radius: 3px;
+    &:hover{
+        background: #F7B1B1;  
+    } 
+}
+.footer{
+    height: 50px;
+    border-top: 1px solid #999999;
+    background-image: -o-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -moz-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -webkit-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -ms-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: linear-gradient(to bottom, #2966B1 0%, #2966B1 100%);
+}
+span{
+    padding: 20px;
+    color: #fff;
+}
+/* Mobil nézet */
+@media only screen and (max-width: 768px) {  
+    .alapitok{
+        font-family: @betutipus;    
+    } 
+    .head{
+        height: 243px;
+    }
+    .menu a{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        text-decoration: none;
+        &:hover{
+            color: gold;
+        }  
+    }
+    .signo{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 150px;
+    }
+    #cim{
+        text-align: center
+    }
+    span{
+        padding: 0;
+    }
+    .head{
+        .tel{
+            text-align: center;
+            color: @color;
+            padding-top: 5px;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .cimHandel{
+        text-align: center;
+    }
+    .figyelem{
+        width: 100%;
+    }
+
+    .keptarolo{
+        text-align: center;
+        .kep{
+            width: 86%;
+            margin-top: 20px;
+            border-radius: 5px;
+            padding-bottom: 5px;
+        }
+    }
+    .introKepTarolo{
+        text-align: center;
+    }
+    .introKep{
+        width: 86%;
+        height: auto;
+        padding: 0px;
+        float: none;
+        margin-right: 0px;
+
+    }
+    .reka{
+        text-align: center;
+        font-family:  @betutipus;  
+    }
+    .introSzoveg{
+        float: none;
+        padding: 10px;
+        font-family:  @betutipus;
+        text-align: center;
+        text-align: justify;
+    }
+
+    #uzenet{   
+        position: relative;
+        left: 7%;   
+        top: -5%;
+        color: #a9446d;
+        text-decoration: none;
+        background: #f2dede;
+        padding: 4px;
+        border-radius: 3px;    
+        &:hover{
+            background: #F7B1B1;  
+        } 
+    }
+}
+
+

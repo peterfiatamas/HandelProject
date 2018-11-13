@@ -1,0 +1,207 @@
+@cimbetu: red;
+@color: #fff;  
+@bgcolor: #d9e8f5;
+@betutipus: Times new romana;
+html body{
+    background-color: #d9e8f5;
+}
+
+.signo{
+
+    display: block;
+    width: 150px;
+}
+#cim{
+    color: @color;
+    font-family: @betutipus;
+}
+.head{
+    .tel{
+        text-align: right;
+        color: @color;
+        padding-top: 5px;
+    }  
+    background-image: -o-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -moz-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -webkit-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -ms-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: linear-gradient(to bottom, #2966B1 0%, #2966B1 100%);
+}
+#uzenet{
+    margin-right: 15%;
+    color: #a9446d;
+    text-decoration: none;
+    background: #f2dede;
+    padding: 4px;
+    border-radius: 3px;
+    &:hover{
+        background: #F7B1B1;  
+    } 
+}
+
+.menu-container{   
+    background-color: #EDF1F3; 
+}
+.menu{
+    #fooldal{
+        padding-left: 0;
+    }
+    a{
+        padding-left: 2px;
+        padding-right: 2px;
+        display: inline;
+        text-align: left;
+        font-size: 18px;
+        text-decoration: none; 
+        &:hover{
+            color: gold;
+        }        
+    }
+}
+.intro{
+    text-align: justify;
+}
+.keptarolo{
+    .kep{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .bal{
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+    .jobb{
+        width: 50%;
+        .alapitok{
+            font-family: @betutipus;    
+        } 
+    }
+
+}
+.intro{
+    padding-top: 10px;
+}
+.introKep{
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+.introSzoveg{
+    padding: 10px;
+    font-family:  @betutipus;
+    text-align: justify;
+}
+
+#uzenet{
+    margin-right: 15%;
+    color: #a9446d;
+    text-decoration: none;
+    background: #f2dede;
+    padding: 4px;
+    border-radius: 3px;
+    &:hover{
+        background: #F7B1B1;  
+    } 
+}
+.footer{
+    height: 50px;
+    border-top: 1px solid #999999;
+    background-image: -o-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -moz-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -webkit-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: -ms-linear-gradient(bottom, #2966B1 0%, #2966B1 100%);
+    background-image: linear-gradient(to bottom, #2966B1 0%, #2966B1 100%);
+}
+span{
+    padding: 20px;
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {  
+    .head{
+        height: 243px;
+    }
+    .menu a{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        text-decoration: none;
+        &:hover{
+            color: gold;
+        }  
+    }
+
+    #cim{
+        text-align: center
+    }
+    span{
+        padding: 0;
+
+    }
+    .head{
+        .tel{
+            text-align: center;
+            color: @color;
+            padding-top: 5px;
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .cimHandel{
+        text-align: center;
+    }
+    .figyelem{
+        width: 100%;
+    }
+    #uzenet{   
+        position: relative;
+        left: 7%;   
+        top: -5%;
+        color: #a9446d;
+        text-decoration: none;
+        background: #f2dede;
+        padding: 4px;
+        border-radius: 3px;    
+        &:hover{
+            background: #F7B1B1;  
+        } 
+    }
+    .signo{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 150px;
+    }
+    .intro{
+        padding-top: 10px;
+    }
+    .introKep{
+        width: 60%;
+        height: auto;
+        padding: 10px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .introSzoveg{
+        padding: 10px;
+        font-family:  @betutipus;
+        text-align: justify;
+    }
+
+    #uzenet{
+        margin-right: 15%;
+        color: #a9446d;
+        text-decoration: none;
+        background: #f2dede;
+        padding: 4px;
+        border-radius: 3px;
+        &:hover{
+            background: #F7B1B1;  
+        } 
+    }
+}
+
